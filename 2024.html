@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>TJ IOI 2024</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta name="description" content="TJ IOI 2024">
+  <meta name="keywords" content="TJIOI, TJIOI 2024, TJSCT, TJICT, TJCT, Computer Team, TJHSST">
+  <meta name="robots" content="index, follow">
+  <meta name="web_author" content="Gabriel Xu, Alvan Caleb Arulandu">
+
+  <meta name="msapplication-TileColor" content="#0a132f">
+  <meta name="msapplication-config" content="./browserconfig.xml">
+  <meta name="theme-color" content="#0a132f">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./static/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./static/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./static/icons/favicon-16x16.png">
+  <link rel="manifest" href="./site.webmanifest">
+  <link rel="mask-icon" href="./static/icons/safari-pinned-tab.svg" color="#0a132f">
+  <link rel="shortcut icon" href="./static/icons/favicon.ico">
+
+  <link rel="stylesheet" href="./style_69.css" />
+  <link rel="icon" type="image/x-icon" href="./static/logo.png" />
+
+  <script src="./index_2024.js" defer></script>
+  <script src="./lib/p5.min.js" defer></script>
+  <script src="./lib/vanta.topology.min.js" defer></script>
+  <script src="./background.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img alt="logo" width="120" height="60" src="./static/icons/logo.svg">
+    </nav>
+  </header>
+  <div class="bg" id="bg"></div>
+  <main>
+    <div class="banner">
+        <nav>
+          All Years:&nbsp;
+          <a href="/tjioi/2022.html">TJIOI 2022</a>&nbsp;
+          <a href="/tjioi/2024.html">TJIOI 2024</a>&nbsp;
+          <a href="/tjioi/">TJIOI 2025</a>
+        </nav>
+    </div>
+    <section id="hero">
+      <div class="panel">
+        <h1>TJ IOI 2024</h1>
+        <h2>TJHSST's very own high school programming contest.</h2>
+        <h2>Date: Saturday May 11</h2>
+        <ul>
+          <li>Join students across the world in a fun, challenging programing competition.</li>
+          <li>Compete in teams for some sick prizes!</li>
+          <li>Whether you're a beginner or seasoned veteran, we're sure you'll learn something new!</li>
+        </ul>
+        <a href="https://tinyurl.com/tjioi24" target="_blank" class="button">Register</a>
+      </div>
+      <div id="timer" class="fade-up">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100%">
+          <defs>
+            <linearGradient id="timerGradient">
+              <stop offset="0%" stop-color="hsla(var(--color-accent-hue), 100%, 48%, .75)"/>
+              <stop offset="100%" stop-color="hsla(var(--color-accent-hue), 94%, 63%, .75)"/>
+            </linearGradient>
+          </defs>
+          <circle cx="50%" cy="50%" r="40%" stroke-linecap="round" />
+          <circle cx="50%" cy="50%" r="40%" stroke-linecap="round" id="timerBar"/>
+        </svg>
+        <p>Registration closes in 02:01:01:02</p>
+      </div>
+    </section>
+
+    <section id="logistics">
+      <div>
+        <div class="panel">
+          <h2>Logistics</h2>
+          <p>The contest will be held in-person on <b>Saturday, May 11</b> at the Thomas Jefferson High School for Science and Technology from 9:30am to 4:00pm EDT, open to anyone. You can participate in teams of up to 3 with one computer. </p>
+          <p>Each team attending in-person will need to pay a $20 registration fee, regardless of how many members. Additionally, each team not from TJHSST must be registered with an adult sponsor or chaperone. The team sponsor must stay in the building for whole contest time and may proctor the contest.</p>
+          <p>We will accept the first 24 teams to register and the remainder will be waitlisted.</p>
+          <br>
+          <p>An online mirror will be held at the same time as the in-person contest for those who cannot attend in-person. The mirror will not be subject to the same rules and restrictions as the in-person competition. Register at <a href="https://docs.google.com/forms/d/e/1FAIpQLSevCNtNS5lN4wdLfIB0D_wzR-zEBXDtOP_yYWXk1qBgiunKdA/viewform?usp=sf_link" target="_blank">this link</a>.</p>
+          <br>
+          <p>If you have any questions or concerns, email us at tjioi2024@gmail.com.</p>
+        </div>
+        <div class="panel">
+          <h3>Schedule</h3>
+          <table>
+            <tr>
+              <th>9:30-10:00</th>
+              <th>Arrival and check-in</th>
+            </tr>
+            <tr>
+              <th>10:00-11:30</th>
+              <th>Set-up, opening ceremony, practice round, etc.</th>
+            </tr>
+            <tr>
+              <th>11:30-12:30</th>
+              <th>Lunch (provided)</th>
+            </tr>
+            <tr>
+              <th>12:30-3:30</th>
+              <th>Coding time</th>
+            </tr>
+            <tr>
+              <th>3:30-4:00</th>
+              <th>Award ceremony</th>
+            </tr>
+          </table>
+          <br>
+          <p>After you register, we will use email to communicate specific details and logistics.</p>
+          <!--<ul>-->
+          <!--  <li><a href="https://zoom.us/j/93293360628?pwd=K3R6MDRoNWt6OEoxdC9EN2ppREJTdz09" target="_blank">Opening / Q & A</a> (12:00 PM - 12:45 PM)</li>-->
+          <!--  <li><a href="https://codeforces.com/group/wXx9dG71FM/contests" target="_blank">Contest</a> (1:00 PM - 4:00 PM)</li>-->
+          <!--  <li><a href="https://zoom.us/j/93293360628?pwd=K3R6MDRoNWt6OEoxdC9EN2ppREJTdz09">Solutions / Closing</a> (4:30 PM - 5:30 PM)</li>-->
+          <!--  <li> The password for all Zoom links is [tjioi]</li> -->
+          <!--</ul>-->
+        </div>
+        <div class="panel">
+          <h3>Code</h3>
+          <ul>
+            <li>For the in-person contest, our grader will support C++ 14, Java 17.0.10, and Python 3.8.10. The information on how to access the website will be provided the day of the contest.</li>
+            <li>All input will be read through standard input, and output should be done through standard output.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <div class="panel">
+          <h3>Contest</h3>
+          <ul>
+            <li>Problems will range from USACO Bronze level to USACO Platinum level.</li>
+            <li>Rankings will be determined by the number of problems solved. Tiebreakers will be broken by penalties
+              (incorrect submissions and time submitted).</li>
+            <li>Each team can either use a personal laptop or a desktop we provide.</li>
+            <li>The only software allowed is our grader to submit code and a development environment to type and test code.</li>
+            <li>Communication between non-team members and unauthorized use of the internet will result in immediate disqualification.</li>
+            <li>Students are allowed to bring school and personal laptops, chargers, written reference material, paper, and writing utensils.</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>Prizes</h3>
+          The top 3 pre-college teams attending in-person will receive prizes and a certificate:
+          <ul>
+            <li>1st - $35 Amazon Gift Card Per Person</li>
+            <li>2nd - $25 Amazon Gift Card Per Person</li>
+            <li>3rd - $15 Amazon Gift Card Per Person</li>
+          </ul><br>
+          All in-person participants will recieve a participation certificate and a TJIOI sticker.
+        </div>
+      </div>
+    </section>
+    <hr />
+    
+    <section id="leadership">
+      <div class="panel">
+        <h2>The Team</h2>
+        <p>This contest would not be possible without the efforts of the TJ Computer Team and other members of the competitive programming community.</p>
+        <ul>
+          <li><span>Gabriel Xu</span><span>Problem Setter, Organizer, Web Developer</span></li>
+          <li><span>Munir Kudrati-Plummer</span><span>Problem Setter, Organizer</span></li>
+          <li><span>Avnith Vijayram</span><span>Problem Setter, Organizer</span></li>
+          <li><span>Johnny Liu</span><span>Problem Setter, Organizer, Web Developer</span></li>
+          <li><span>Daniel Qiu</span><span>Problem Setter, Organizer, Web Developer</span></li>
+          <li><span>Avni Garg</span><span>Organizer</span></li>
+          <li><span>Marina Lin</span><span>Organizer</span></li>
+          <li><span>Samarth Bhargav</span><span>Organizer</span></li>
+          <li><span>Vishal Nandakumar</span><span>Organizer</span></li>
+          <li><span>Danny Mittal</span><span>Tester</span></li>
+          <li><span>Kevin Shan</span><span>Tester</span></li>
+        </ul>
+      </div>
+      <div>
+        <div class="panel" id="sponsors">
+          <h2>Sponsors</h2>
+          <div>
+            <a class="img-link" href="https://www.janestreet.com/" target="_blank"><img alt="janestreet" src="./static/images/Jane_Street.png"></a>
+          </div>
+          <p><i>If you are interested in sponsoring us, read <a href="./static/TJIOI_Sponsorship_Information_2024.pdf" target="_blank">our sponsorship packet</a> and reach out to tjioi2024@gmail.com.</i></p>
+        </div>
+        <div class="panel" id="partners">
+          <h2>Partners</h2>
+          <div style="display: flex;">
+            <a class="img-link" href="https://www.teamscode.org/" target="_blank"><img alt="teamcode" src="./static/images/teamcode.png"></a>
+            <a class="img-link" href="https://joincpi.org/" target="_blank"><img alt="cpinit" src="./static/images/cpinit.png"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <footer>
+      <p>Website by <a href="https://arulandu.com" target="_blank">Alvan Caleb Arulandu</a> and <a href="https://github.com/Gabriel-Xu" target="_blank">Gabriel Xu</a></p>
+    </footer>
+  </main>
+</body>
+
+</html>
