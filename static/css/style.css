@@ -252,6 +252,7 @@ section {
     color: var(--color-white-regular);
 
     list-style-type: none;
+    /* list-style-image: url('../../static/icons/check.svg'); */
 }
 
 #hero .panel ul li {
@@ -264,7 +265,7 @@ section {
 
 #hero .panel ul li::before {
     position: absolute;
-    content: url('./static/icons/check.svg');
+    content: url('../../static/icons/check.svg');
     left: 0;
 }
 
