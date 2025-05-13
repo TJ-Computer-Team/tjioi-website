@@ -80,7 +80,7 @@ const toTop = document.getElementById('toTop');
 const container = document.querySelector('main');  // ← scroll happens here
 
 container.addEventListener('scroll', () => {
-  toTop.style.display = container.scrollTop > 300 ? 'block' : 'none';
+  toTop.style.display = container.scrollTop > 300 ? 'flex' : 'none';
 });
 
 toTop.addEventListener('click', () => {
