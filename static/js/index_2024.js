@@ -37,7 +37,7 @@ const timerLoop = () => {
   } else {
     setPercent(1.0);
     update = false;
-    txt.innerHTML = `Contest has finished!<br><br><a href="./static/images/TJIOI_2024_Standings.jpg">Final In-Person Standings</a><br><a href="./static/contest/TJIOI_2024_Problemset.pdf">Problems</a><br><a href="https://codeforces.com/blog/entry/129435">Editorial/Solutions</a>`;
+    txt.innerHTML = `Contest has finished!<br><br><a href="./static/images/TJIOI_2024_Standings.jpg">Final In-Person Standings</a><br><a href="./static/docs/contest/TJIOI_2024_Problemset.pdf">Problems</a><br><a href="https://codeforces.com/blog/entry/129435">Editorial/Solutions</a>`;
   }
     
   if(update){

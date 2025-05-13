@@ -39,7 +39,7 @@ const timerLoop = () => {
     update = false;
     txt.innerHTML = `Contest has ended!<br><br>
     <a href="https://codeforces.com/group/wXx9dG71FM/contest/385357/standings/" target="_blank">Results</a><br>
-    <a href="./static/contest/TJIOI_2022_Editorial.pdf" target="_blank">Solutions</a>`;
+    <a href="./static/docs/contest/TJIOI_2022_Editorial.pdf" target="_blank">Solutions</a>`;
   }
     
   if(update){
