@@ -1,6 +1,6 @@
 :root {
   --color-main-hue: 226;
-  --color-accent-hue: 340;
+  --color-accent-hue: 140;
 
   --color-glass-regular: hsl(var(--color-main-hue), 58%, 16%, 0.50);
   --color-glass-shine: hsl(var(--color-main-hue), 58%, 16%, 1.0);
