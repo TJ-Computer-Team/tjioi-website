@@ -9,13 +9,13 @@ const setPercent = (val) => {
 }
 
 const getTime = (diff) => {
-    const days        = Math.floor(diff / (1000*60*60*24)); 
+    const days        = Math.floor(diff / (1000*60*60*24));
     diff %= 1000*60*60*24;
 
-    const hours     = Math.floor(diff / (1000*60*60)); 
+    const hours     = Math.floor(diff / (1000*60*60));
     diff %= 1000*60*60;
 
-    const minutes = Math.floor(diff / (1000*60)); 
+    const minutes = Math.floor(diff / (1000*60));
     diff %= 1000*60;
 
     const seconds = Math.floor(diff / 1000);
@@ -50,7 +50,7 @@ const timerLoop = () => {
     } else {
         setPercent(1.0);
         update = false;
-        txt.innerHTML = `Contest has finished!`;
+        txt.innerHTML = `Contest has finished!<br><br><a href="./static/images/TJIOI_2025_Results.png">Final In-Person Standings</a><br><a href="./static/docs/contest/TJIOI_2025_Problemset.pdf">Problems</a>`;
     }
 
     if(update){
