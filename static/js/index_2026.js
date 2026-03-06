@@ -30,8 +30,10 @@ const timerLoop = () => {
     const contestEnd = new Date('2026-05-02T20:00:00.000Z');
 
     let diff = 0, maxDiff = 0, update = true;
+    const thirtyDays = 30 * 24 * 60 * 60 * 1000;
     if(registrationEnd - now > 0) {
         diff = registrationEnd-now;
+        maxDiff = thirtyDays;
         const {days, hours, minutes, seconds} = getTime(diff);
         txt.innerHTML = `
         Registration closes in<br>
@@ -39,7 +41,6 @@ const timerLoop = () => {
         <span class="unit">${hours} h</span>
         <span class="unit">${minutes} m</span>
         <span class="unit">${seconds} s</span>`;
-        maxDiff = new Date('2026-04-01T00:00:00.000Z') - registrationEnd;
     }
     else if(contestStart - now > 0){
         diff = contestStart-now;

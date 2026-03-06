@@ -1,6 +1,6 @@
 :root {
     --color-main-hue: 226;
-    --color-accent-hue: 340;
+    --color-accent-hue: 270;
 
     --color-glass-regular: hsl(var(--color-main-hue), 58%, 16%, 0.60);
     --color-glass-shine: hsl(var(--color-main-hue), 58%, 16%, 1.0);
@@ -15,8 +15,8 @@
 
     --color-white-regular: hsl(var(--color-main-hue), 100%, 95%);
 
-    --color-orange-regular: hsl(var(--color-accent-hue), 82.19%, 51.57%);
-    --color-orange-lighter: hsl(var(--color-accent-hue), 94%, 63%);
+    --color-orange-regular: hsl(var(--color-accent-hue), 100%, 60%);
+    --color-orange-lighter: hsl(var(--color-accent-hue), 100%, 70%);
 
     --font-size-md: 0.5rem;
     --font-size-lg: 0.75rem;
@@ -435,7 +435,7 @@ footer p a {
 }
 
 a {
-        color: blue;
+        color: var(--color-orange-lighter);
 }
 
 @media screen and (min-width: 640px) {
