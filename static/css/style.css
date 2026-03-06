@@ -622,6 +622,17 @@ table, th, td {
     transition-delay: 0.1s;
 }
 
+.sponsorTier img {
+    max-height: 120px;
+    max-width: 200px;
+    object-fit: contain;
+}
+
+#sponsors img {
+    width: 100%;
+    height: auto;
+}
+
 #jumpTrading:hover #jumpTradingText {
     opacity: 1;
     transition-delay: 0.5s;
